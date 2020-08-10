@@ -1,0 +1,36 @@
+*/config/development
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
+
+#codeigniter 3
+!bin/logs/.htaccess
+/vendor/
+
+.DS_Store
+
+bin/cache/*
+!bin/cache/index.html
+
+bin/logs/*
+!bin/logs/index.html
+
+!bin/*/.htaccess
+
+composer.lock
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
